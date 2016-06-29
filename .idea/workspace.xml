@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26902655" vertical-offset="1140" max-vertical-offset="2679">
-              <caret line="95" column="96" selection-start-line="95" selection-start-column="96" selection-end-line="95" selection-end-column="96" />
+            <state vertical-scroll-proportion="0.59646016" vertical-offset="2114" max-vertical-offset="2679">
+              <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
               <folding>
                 <element signature="e#488#792#0" expanded="false" />
                 <element signature="e#824#919#0" expanded="false" />
@@ -490,12 +490,12 @@
       <updated>1467119680872</updated>
       <workItem from="1467119683210" duration="34000" />
       <workItem from="1467119776414" duration="12593000" />
-      <workItem from="1467183989395" duration="17424000" />
+      <workItem from="1467183989395" duration="17836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30051000" />
+    <option name="totallyTimeSpent" value="30463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -707,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26902655" vertical-offset="1140" max-vertical-offset="2679">
-          <caret line="95" column="96" selection-start-line="95" selection-start-column="96" selection-end-line="95" selection-end-column="96" />
+        <state vertical-scroll-proportion="0.59646016" vertical-offset="2114" max-vertical-offset="2679">
+          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
           <folding>
             <element signature="e#488#792#0" expanded="false" />
             <element signature="e#824#919#0" expanded="false" />
