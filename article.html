@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>WQY的个人日志</title>
+    <script src="js/jquery.min.js"></script>
+    <style type="text/css">
+        html, body{background-color:#ffffff;}
+        div#container{width: 70%;margin-left:15%;margin-right:15%; position:absolute;}
+        div#header{background:url(image/background.jpg) no-repeat 4px 5px}
+        .imgcircle figure
+        {
+            display:inline-block;
+            margin:5px auto;
+            width:100px;
+            height:100px;
+            border-radius:100px;
+            border:2px solid #fff;
+            overflow:hidden;
+            -webkit-box-shadow:0 0 3px #ccc;
+            box-shadow:0 0 3px #ccc;
+        }
+        .imgcircle img
+        {
+            width:100%;
+            min-height:100%;
+            text-align:center;
+        }
+        div#name{font-family:仿宋;color:#886655;}
+        .eng{color:#115599;font-weight:bold;}
+        .england{width: 50px;}
+        div#navi{width: 100%; float: left; height: 40px;padding: 0;}
+        div#navi0{width: 20%; float: left;}
+        div#navi1{width: 20%; float: left;}
+        div#navi2{width: 20%; float: left;}
+        div#navi3{width: 20%; float: left;}
+        div#navi4{width: 20%; float: left;}
+        ul{margin: 0;}
+        li
+        {
+            list-style-type: none;
+            width: 90%;
+            float: left;
+        }
+        .head-line:link, .head-line:visited
+        {
+            display:block;
+            width:90%;
+            font-weight:bold;
+            color:#FFFFFF;
+            background-color:#998877;
+            text-align:center;
+            padding:8px 0;
+            text-decoration:none;
+        }
+        .head-line:hover, .head-line:active {background-color:#66B3FF;color:#345677;}
+        div#content {background-color:#EEEEEE; width: 100%; float: left;}
+        .row {width: 90%; float: left; margin-left: 5%; margin-right: 5%; margin-bottom: 1%}
+        .blog_list{width: 80%; float: left; margin-left: 8%; margin-right: 8%; margin-bottom: 1%;background-color:#cceedd;}
+        .left {width:20%; min-width: 60px; float: left;}
+        .right {color: #4F4F4F; width: 80%; float: left;}
+        div#footer{text-align:center;clear: both;background-color:#C4E1E1;}
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="imgcircle" style="text-align:center">
+            <!--头像-->
+            <figure>
+                <div>
+                    <img src="image/head.jpg" />
+                </div>
+            </figure>
+        </div>
+        <div id="name" style="text-align:center">
+            <h1>王沁煜</h1>
+            <h3>软件31<br/>2013013303</h3>
+            <span class="eng">可怜的三喵军团和西班牙一起钓鱼去了。。。 <img class="england" src="image/England.jpg" /></span>
+        </div>
+        <br/>
+        <div id="navi">
+            <!--导航栏-->
+            <ul>
+                <div id = "navi0"><li><a class="head-line" href="index.html">个人主页</a></li></div>
+                <div id = "navi1"><li><a class="head-line" href="#intro">自我介绍</a></li></div>
+                <div id = "navi2"><li><a class="head-line" href="#contact">联系方式</a></li></div>
+                <div id = "navi3"><li><a class="head-line" href="article.html">个人日志</a></li></div>
+                <div id = "navi4"><li><a class="head-line" href="web.html">课程作业</a></li></div>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="row">
+            <div style=" text-align:center;"><h2 style="font-family:微软雅黑">个人日志</h2></div>
+            <div class="blog_list">
+                <div class="left">
+                    <h2 style="font-family:微软雅黑">No.1</h2>
+                </div>
+                <div class="right">
+                    <a href="blogs/blog1.html"><h3 style="font-family:微软雅黑">日志1号</h3></a>
+                    <p>
+                    <h5>我们不生产水~</h5>
+                    </p>
+                    <hr/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h4>Copyright © 2016 WangQinyu. All Rights Reserved</h4>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>WQY的个人主页</title>
+    <script src="js/jquery.min.js"></script>
+    <style type="text/css">
+        html, body{background-color:#ffffff;}
+        div#container{width: 70%;margin-left:15%;margin-right:15%; position:absolute;}
+        div#header{background:url(image/background.jpg) no-repeat 4px 5px}
+        .imgcircle figure
+        {
+            display:inline-block;
+            margin:5px auto;
+            width:100px;
+            height:100px;
+            border-radius:100px;
+            border:2px solid #fff;
+            overflow:hidden;
+            -webkit-box-shadow:0 0 3px #ccc;
+            box-shadow:0 0 3px #ccc;
+        }
+        .imgcircle img
+        {
+            width:100%;
+            min-height:100%;
+            text-align:center;
+        }
+        div#name{font-family:仿宋;color:#886655;}
+        .eng{color:#115599;font-weight:bold;}
+        .england{width: 50px;}
+        div#navi{width: 100%; float: left; height: 40px;padding: 0;}
+        div#navi0{width: 20%; float: left;}
+        div#navi1{width: 20%; float: left;}
+        div#navi2{width: 20%; float: left;}
+        div#navi3{width: 20%; float: left;}
+        div#navi4{width: 20%; float: left;}
+        ul{margin: 0;}
+        li
+        {
+            list-style-type: none;
+            width: 90%;
+            float: left;
+        }
+        .head-line:link, .head-line:visited
+        {
+            display:block;
+            width:90%;
+            font-weight:bold;
+            color:#FFFFFF;
+            background-color:#998877;
+            text-align:center;
+            padding:8px 0;
+            text-decoration:none;
+        }
+        .head-line:hover, .head-line:active {background-color:#66B3FF;color:#345677;}
+        div#content {background-color:#EEEEEE; width: 100%; float: left;}
+        .row {width: 90%; float: left; margin-left: 5%; margin-right: 5%; margin-bottom: 1%}
+        div#intro{font-family:宋体;color:#000000;font-weight:bold;}
+        .icolist {width: 90%; height: auto; margin: 5%; float: left; }
+        .ico {width: 10%; min-width: 50px; height: auto; float: left; padding: 5%;}
+        .tips{background-color:#C4E1E1; min-height: 26px; float: left; padding: 15%;font-weight:bold;display:none;border-radius:5px;border:2px solid #fff;}
+        .tips img{width:100%;text-align:center;}
+        div#hart{width: 40%;  margin-left:30%;margin-right:30%; float: left;text-align:center;font-family:微软雅黑;}
+        .hart{
+            display:inline-block;
+            margin:5px auto;
+            border-radius:10px;
+            border:2px solid #fff;
+            overflow:hidden;
+            -webkit-box-shadow:0 0 3px #ccc;
+            box-shadow:0 0 3px #ccc;
+        }
+        div#footer{text-align:center;clear: both;background-color:#C4E1E1;margin-bottom:1%;}
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="imgcircle" style="text-align:center">
+            <!--头像-->
+            <figure>
+                <div>
+                    <img src="image/head.jpg" />
+                </div>
+            </figure>
+        </div>
+        <div id="name" style="text-align:center">
+            <h1>王沁煜</h1>
+            <h3>软件31<br/>2013013303</h3>
+            <span class="eng">可怜的三喵军团和西班牙一起钓鱼去了。。。 <img class="england" src="image/England.jpg" title="我是HelloKitty!"></span>
+        </div>
+        <br/>
+        <div id="navi">
+            <!--导航栏-->
+            <ul>
+                <div id = "navi0"><li><a class="head-line" href="index.html">个人主页</a></li></div>
+                <div id = "navi1"><li><a class="head-line" href="#intro">自我介绍</a></li></div>
+                <div id = "navi2"><li><a class="head-line" href="#contact">联系方式</a></li></div>
+                <div id = "navi3"><li><a class="head-line" href="article.html">个人日志</a></li></div>
+                <div id = "navi4"><li><a class="head-line" href="web.html">课程作业</a></li></div>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="row">
+            <div id="intro">
+                <div style=" text-align:center;"><h2 style="font-family:微软雅黑">自我介绍</h2></div>
+                <h4>&nbsp;&nbsp;这里是王沁煜的个人主页~ 介绍一下我自己。喜欢体育运动，最近在看欧洲杯，三喵队不愧是欧洲中国队，从来没有让人失望过，对面的球员听好了：<br/></h4>
+            <div id="box3" style="display:none">
+            <h4>&nbsp;&nbsp;天若有情天亦老，看见哈特蒙一脚。<br/>
+                &nbsp;&nbsp;故人西辞黄鹤楼，又见哈特漏一球。<br/>
+                &nbsp;&nbsp;城头变幻大王旗，吊射哈特你甭提。<br/>
+                &nbsp;&nbsp;留连戏蝶时时舞，就问哈特苦不苦？<br/>
+                &nbsp;&nbsp;万水千山总是情，看见哈特射就行。<br/>
+                &nbsp;&nbsp;不识庐山真面目，哈特就是背景布。<br/>
+                &nbsp;&nbsp;人间正道是沧桑，背景哈特泪汪汪。<br/>
+                &nbsp;&nbsp;雄关漫道真如铁，爆射哈特一脸血。<br/><br/>
+                &nbsp;&nbsp;好吧，那么话说回来了哈特为什么这么水呢，我觉得一定是欧冠半决赛发挥的太好了，把人品都败完了，只输了皇马1个球。那为什么皇马只进了一个球呢？所以，全TM赖本泽马。时差调不回来了，顿时有了一种自己活在欧洲的感觉（做梦真好！）。</h4>
+            </div>
+            <p><a href="###" onclick="openShutManager(this,'box3',false,'点击关闭','点击展开')">点击展开</a></p>
+            </div>
+            <hr />
+            <div id="contact" >
+                <div style=" text-align:center;"><h2 style="font-family:微软雅黑">联系方式</h2></div>
+                <div class="icolist">
+                    <div class = "ico">
+                        <a href="MAILTO:wangqinyu303@gmail.com" target="_blank" title="发送邮件"><img src="image/gmail.png" class="ico1" alt="" width=100%/></a>
+                        <br/>
+                        <span id="tips1" class="tips" style="display:none">Gmail:wangqinyu303@gmail.com</span>
+                    </div>
+                    <div class = "ico">
+                        <a href="image/qrcode.jpg" target="_blank" title="查看大图"><img src="image/wechat.png" class="ico2" alt="" width=100%/></a>
+                        <br/>
+                        <span id="tips2" class="tips" style="display:none">Wechat:shshdhffhg<br/><img src="image/qrcode.jpg" /></span>
+                    </div>
+                    <div class = "ico">
+                        <img src="image/qq.png" class="ico3" alt="" title="欢迎联络" width=100%/>
+                        <br/>
+                        <span id="tips3" class="tips" style="display:none">QQ:771456505</span>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div id="hart">
+                <img src="image/hart.jpg" class="hart" alt="" width=100%/>
+                <h2>乔哈特一脸懵逼！<br/>Why Always Me!!!</h2>
+                <img src="image/taylor.jpg" class="taylor" alt="" width=100%/>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h4>Copyright © 2016 WangQinyu. All Rights Reserved</h4>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    //===========================点击展开关闭效果====================================
+    function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+        var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+        var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+        var openTip = oOpenTip || "";
+        var shutTip = oShutTip || "";
+        if(targetObj.style.display!="none"){
+            if(shutAble) return;
+            targetObj.style.display="none";
+            if(openTip  &&  shutTip){
+                sourceObj.innerHTML = shutTip;
+            }
+        } else {
+            targetObj.style.display="block";
+            if(openTip  &&  shutTip){
+                sourceObj.innerHTML = openTip;
+            }
+        }
+    }
+
+    $(".ico1").mouseover(function(){
+        document.getElementById('tips1').style.display="block";
+    });
+    $(".ico1").mouseout(function(){
+        document.getElementById('tips1').style.display="none";
+    });
+    $(".ico2").mouseover(function(){
+        document.getElementById('tips2').style.display="block";
+    });
+    $(".ico2").mouseout(function(){
+        document.getElementById('tips2').style.display="none";
+    });
+    $(".ico3").mouseover(function(){
+        document.getElementById('tips3').style.display="block";
+    });
+    $(".ico3").mouseout(function(){
+        document.getElementById('tips3').style.display="none";
+    });
+</script>
