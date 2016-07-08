@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .slider{
+            overflow-y: hidden;
+            max-height: 500px; /* 预估的最大高度 */
+
+            transition-property: all;
+            transition-duration: .5s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        }
+        .slider.closed {
+            max-height: 0;
+        }
+    </style>
+</head>
+<body>
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script src="js/jquery.min.js"></script>
+    <div id="output" class="slider">需要滑动(显示隐藏)的内容,内容长度随意,class当然也可</div>
+</body>
+</html>
+<script>
+    //var ws = new WebSocket("ws://echo.websocket.org/");
+    /*var ws = new WebSocket("ws://wall.cgcgbcbc.com/");
+    var output = document.getElementById("output");
+
+    ws.onopen = function(){
+        console.log("Handshake success");
+        //ws.send("This is the first message.");
+    };
+    ws.onerror = function(){
+        console.log("Got error");
+    };
+    ws.onmessage= function(evt){
+        console.log(evt.data);
+        writeToScreen('<span style="color: blue;">RESPONSE: '+ evt.data+'</span>');
+    };
+    function writeToScreen(message) {
+        var pre = document.createElement("p");
+        pre.style.wordWrap = "break-word";
+        pre.innerHTML = message;
+        output.appendChild(pre);
+    }*/
+    var chat = io.connect('https://wall.cgcgbcbc.com');
+
+    chat.on('new message', function (msg) {
+        //chat.emit('hi!');
+        console.info('message:'+msg.nickname+' '+msg.content);
+    });
+    chat.on('admin', function (msg) {
+        //chat.emit('hi!');
+        console.info('admin:'+msg.content);
+    });
+    $.ajax({
+        url:'https://wall.cgcgbcbc.com/api/messages?num=3',
+        type : "GET",
+        dataType: "json",
+        data : {
+            test:true,
+            csrfmiddlewaretoken: '{{ csrf_token }}'
+        },
+        success : function(json) {
+            console.log(json);
+        },
+        error : function(xhr,errmsg,err) {
+            alert(xhr.status + ": " + xhr.responseText);
+        }
+    })
+</script>
+</script>
