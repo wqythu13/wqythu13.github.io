@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset = "UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML GAME!</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+
+<body>
+<audio id="bgm" controls="controls" loop="loop" hidden="true">
+    <source src="music/bgm.mp3" type="audio/mp3" />
+</audio>
+<div class="container">
+    <div class="left">
+        <h1>第1关</h1>
+        <br/>
+        <hr/>
+        <h1 class="step">当前<p>0</p>步</h1>
+        <br/>
+        <hr/>
+        <h1>Tips:<br/>上下左右移动<br/>R重玩此关<br/>Q撤销上一步</h1>
+    </div>
+        <ul id="yxbox">
+
+        </ul>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/game.js"></script>

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../images/back.jpg');
+    background-size: 100%;
+
+}
+.left{
+    float:left;
+    margin-left: 150px;
+    background-color: aliceblue;
+}
+#yxbox{
+    padding: 0;
+    margin:0 auto;
+    margin-top:50px;
+    list-style: none;
+    position:relative;
+}
+#yxbox li{
+    width:50px;
+    height:50px;
+    float: left;
+    z-index: -1;
+}
+p{color: crimson}
+#yxbox .pos0{
+    background:url('../images/tree.png') no-repeat;
+}
